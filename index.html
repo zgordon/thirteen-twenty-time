@@ -1,17 +1,200 @@
-<!DOCTYPE html>
-<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-
+<html>
 <head>
-	
-	<meta charset="utf-8">	
-	<title>13:20 Time.net -  Online 13 Moon Calendar and other Technosphere Resources for the Noosphere Activation</title>	
-	<link rel="stylesheet" href="http://api.1320time.net/css/1320-time.css">  
-	
+	<title>iPhone App</title>
+	<script src="js/jquery.js"></script>
+	<script src="js/moment.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/functions.js"></script>
+
+	<style type="text/css">
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		nav li {
+		}
+		nav a {
+			display: block;
+			float: left;
+			padding: 10px;
+		}
+		.next-moon {
+			float: right;
+		}
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+		th, td {
+			border: 1px #000 solid;
+			padding: 20px;
+			text-align: center;
+		}
+		td {
+			position: relative;
+		}
+		td span {
+			display: block;
+		}
+		.portal {
+			background: green
+		}
+		.active {
+			background: yellow
+		}
+		.day-number {
+			position: absolute;
+			top: 10px;
+			left: 10px;
+		}
+		.kin-number {
+			font-size: 13px;
+		}
+		.gregorian {
+			font-size: 10px;
+			display: block;
+			font-style: italic;
+			color: #999;
+		}
+
+	</style>
 </head>
 <body>
 
-<iframe src="http://api.1320time.net/embeds/13-moons/" width="100%" height="680px" style="border: none; overflow: visible"></iframe>
+	<script type="text/javascript">
 
+		//console.log( yearConversion.length );
+
+		$(document).ready( function() {
+
+			today.init();
+
+			//var day = new Date();
+			//var dayWrapper = moment(day);
+			//console.log(dayWrapper.format("YYYY/MM/DD"));
+			//console.log(dayWrapper.add('days', 1).format("YYYY/MM/DD"));
+
+
+		});
+
+
+	</script>
+
+	<nav>
+		<ul>
+			<li><a class="prev-moon" href="#" class="next-moon"><< Prev Moon</a></li>
+			<li><a class="to-today" href="#">Go to Today</a></li>
+			<li><a href="#" class="next-moon">Next Moon >></a></li>
+		</ul>
+	</nav>
+
+	<table>
+	<thead>
+		<tr>
+			<th>Dali</th>
+			<th>Seli</th>
+			<th>Gamma</th>
+			<th>Kali</th>
+			<th>Alpha</th>
+			<th>Limi</th>
+			<th>Silio</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				<span class="day-number">1</span>
+			</td>
+			<td>
+				<span class="day-number">2</span>
+			</td>
+			<td>
+				<span class="day-number">3</span>
+			</td>
+			<td>
+				<span class="day-number">4</span>
+			</td>
+			<td>
+				<span class="day-number">5</span>
+			</td>
+			<td>
+				<span class="day-number">6</span>
+			</td>
+			<td>
+				<span class="day-number">7</span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span class="day-number">8</span>
+			</td>
+			<td>
+				<span class="day-number">9</span>
+			</td>
+			<td>
+				<span class="day-number">10</span>
+			</td>
+			<td>
+				<span class="day-number">11</span>
+			</td>
+			<td>
+				<span class="day-number">12</span>
+			</td>
+			<td>
+				<span class="day-number">13</span>
+			</td>
+			<td>
+				<span class="day-number">14</span>
+			</td>
+		</tr>
+				<tr>
+			<td>
+				<span class="day-number">15</span>
+			</td>
+			<td>
+				<span class="day-number">16</span>
+			</td>
+			<td>
+				<span class="day-number">17</span>
+			</td>
+			<td>
+				<span class="day-number">18</span>
+			</td>
+			<td>
+				<span class="day-number">19</span>
+			</td>
+			<td>
+				<span class="day-number">20</span>
+			</td>
+			<td>
+				<span class="day-number">21</span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span class="day-number">22</span>
+			</td>
+			<td>
+				<span class="day-number">23</span>
+			</td>
+			<td>
+				<span class="day-number">24</span>
+			</td>
+			<td>
+				<span class="day-number">25</span>
+			</td>
+			<td>
+				<span class="day-number">26</span>
+			</td>
+			<td>
+				<span class="day-number">27</span>
+			</td>
+			<td>
+				<span class="day-number">28</span>
+			</td>
+		</tr>
+	</tbody>
+	</table>
 </body>
 </html>
