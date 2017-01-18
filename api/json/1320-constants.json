@@ -1,0 +1,49 @@
+{
+    "colors": ["Red","White","Blue","Yellow"],
+    "tones": [
+            ["Magnetic","Unify","Attracting","Purpose"],
+            ["Lunar","Polarize","Stabilizing","Challenge"],
+            ["Electric","Activate","Bonding","Service"],
+            ["Self-Existing","Define","Measuring","Form"],
+            ["Overtone","Empower","Commanding","Radiance"],
+            ["Rhythmic","Organize","Balancing","Equality"],
+            ["Resonant","Channel","Inspiring","Attunement"],
+            ["Galactic","Harmonize","Modeling","Integrity"],
+            ["Solar","Pulse","Realizing","Intention"],
+            ["Planetary","Perfect","Producing","Manifestation"],
+            ["Spectral","Dissolve","Releasing","Liberate"],
+            ["Crystal","Dedicate","Universalizing","Cooperation"],
+            ["Cosmic","Endure","Transcending","Presence"]
+    ],   
+    "days": [
+        ["Dali","Crown","Thermic Force","Target","My father is intrinsic awareness. I feel the heat."],
+        ["Seli", "Root","Luminic Force","Flow","My mother is the ultimate sphere. I see the light"],
+        ["Gamma","3rd Eye","Luminic-Thermic Force","Pacify","My lineage is the union of intrinsic awareness and the ultimate sphere. I attain the power of peace."],
+        ["Kali","Sacral","Catalytic Agent","Establish","My name is the glorious lotus born. I catalyze the light-heat within."],
+        ["Aplha","Throat","Double-Extended Electron","My country is the unborn ultimate sphere. I release the double extended electron at the south pole."],
+        ["Limi","Solar Plexus","Mental Electron","Purify","I consume dualistic thoughts as food. I purify the mental electron at the north pole."],
+        ["Silio","Heart","Mental Electron Neutron","Discharge","My role is to accomplish the actions of the Buddha. I discharge the mental electron neutron at the center of the earth"]
+    ],
+    "glyphs": [
+        ["Dragon","Birth","Nurtures","Being"],
+        ["Wind","Spirit","Communicates","Breath"],
+        ["Night","Abundance","Dreams","Intuition"],
+        ["Seed","Flowering","Targets","Awareness"],
+        ["Serpent","Life Force","Survives","Instinct"],
+        ["Worldbridger","Death","Equalizes","Opportunity"],
+        ["Hand","Accomplishment","Knows","Healing"],
+        ["Star","Elegance","Beautifies","Art"],
+        ["Moon","Universal Water","Purify","Flow"],
+        ["Dog","Heart","Love","Loyalty"],
+        ["Monkey","Magic","Play","Illusion"],
+        ["Human","Free Will","Influence","Wisdom"],
+        ["Skywalker","Space","Explore","Wakefulness"],
+        ["Wizard","Timelessness","Enchant","Receptivity"],
+        ["Eagle","Vision","Create","Mind"],
+        ["Warrior","Intelligence","Question","Fearlessness"],
+        ["Earth","Navigation","Evolve","Synchronicity"],
+        ["Mirror","Endlessness","Reflect","Order"],
+        ["Storm","Self-generation","Catalyze","Energy"],
+        ["Sun","Enlighten","Life","Matrix","Universal Fire"]        
+    ]
+}

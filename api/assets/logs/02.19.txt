@@ -1,0 +1,23 @@
+Alpha 2.19 | Kin 260 | Rhythmic Wizard Year
+
+Heptad Gate
+	Alpha 
+Time Matrix	
+	TFI = 85 + 138 + 15 = 238
+	BMU = 308 V5 H16
+	
+Space Matrix	
+	TFI = 260 + 316 + 151 = 727
+	BMU = 443 V12 H12
+
+Synchronic Matrix
+	TFI = 260 + 379 + 135
+	BMU = 77 V17 H21
+
+Master Frequency 
+	TFI = 238 + 727 + 135 = 1100
+	BMU = 218 V18 H17
+	Tone = Mi
+	
+
+

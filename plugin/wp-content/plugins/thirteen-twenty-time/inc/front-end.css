@@ -1,0 +1,6 @@
+.kin.listing li { 
+	display: block;
+	float: left;
+	clear: none;	
+	width: 200px;
+}

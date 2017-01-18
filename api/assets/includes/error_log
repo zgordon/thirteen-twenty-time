@@ -1,0 +1,9 @@
+[16-Aug-2011 10:13:32] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/zacg/public_html/1320/assets/includes/functions.php on line 38
+[16-Aug-2011 10:13:54] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/zacg/public_html/1320/assets/includes/functions.php on line 38
+[16-Aug-2011 10:13:57] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/zacg/public_html/1320/assets/includes/functions.php on line 38
+[16-Aug-2011 10:14:12] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/zacg/public_html/1320/assets/includes/functions.php on line 38
+[16-Aug-2011 10:14:34] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zacg/public_html/1320/assets/includes/functions.php on line 65
+[16-Aug-2011 10:14:38] PHP Warning:  date() expects at least 1 parameter, 0 given in /home/zacg/public_html/1320/assets/includes/functions.php on line 38
+[16-Aug-2011 10:16:01] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zacg/public_html/1320/assets/includes/functions.php on line 73
+[16-Aug-2011 10:16:04] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zacg/public_html/1320/assets/includes/functions.php on line 65
+[16-Aug-2011 10:16:11] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/zacg/public_html/1320/assets/includes/functions.php on line 65

@@ -1,0 +1,24 @@
+Alpha 2.19 | Kin 1 - Red Magnetic Dragon | Rhythmic Wizard Year
+
+Heptad Gate
+	6th Gate 
+	402
+Time Matrix	
+	TFI = 86 + 182 + 35 = 303
+	BMU = 352 V6 H16
+	
+Space Matrix	
+	TFI = 1 + 8 + 45 = 54
+	BMU = 118 V2 H3
+
+Synchronic Matrix
+	TFI = 1 + 282 + 10 = 293
+	BMU = 37 V5 H1
+
+Master Frequency 
+	TFI = 238 + 727 + 135 = 1100
+	BMU = 218 V18 H17
+	Tone = Mi
+	
+
+

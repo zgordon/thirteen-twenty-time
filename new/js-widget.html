@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>13:20 JavaScript Widget</title>
+	<link rel="stylesheet" type="text/css" href="kin-widget.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="is-valid-date.js"></script>
+	<script>
+	$(document).ready(function(){
+		var kin,
+			jsonURL,
+			siteURL = 'http://1320time.net/new/index.php?',
+			date = new Date(),						
+			month = ("0" + (date.getMonth() + 1)).slice(-2);
+				
+
+
+
+		dateStr = 	month + '/' +
+					date.getDate() + '/' +
+					date.getFullYear();
+		
+
+		jsonURL	= siteURL + 'm=' + month + '&d=' + ("0" + date.getDate()).slice(-2) + '&y=' + date.getFullYear();		
+
+		getKinObj(jsonURL, dateStr);
+
+		function getKinObj(jsonURL, dateStr) {
+			$.getJSON(jsonURL, function(data) {		  	
+				kin = data;				
+				updateKin(kin, dateStr);
+			});
+		}
+
+		
+		function updateKin(kin, dateStr) {
+			moonInfo = 	kin.date.moonName + 
+						" Moon " +
+						kin.date.dayName + 
+						" " +
+						kin.date.dayNumber;
+
+			kinInfo = 	kin.color + 
+						' ' +
+						kin.toneName + 
+						' ' +
+						kin.sealName;
+
+			kinImg 	=	'<img src="' + 
+						kin.imgUrl +
+						'" alt="' +
+						kinInfo + 
+						'">';
+			
+			codeSpell = '<p>' + kin.codeSpell.line1 + '<p>' +
+						'<p>' + kin.codeSpell.line2 + '<p>' +
+						'<p>' + kin.codeSpell.line3 + '<p>' +
+						'<p>' + kin.codeSpell.line4 + '<p>' +
+						'<p>' + kin.codeSpell.line5 + '<p>';			
+
+			if(kin.codeSpell.line6)	codeSpell += '<p>' + kin.codeSpell.line6 + '</p>';
+			if(kin.codeSpell.line7)	codeSpell += '<p>' + kin.codeSpell.line7 + '</p>';
+			
+			$("#datePicker input[name=date], #todayButton input[name=date]").val(dateStr);						
+			
+			$("h3.kin-number").text('Kin ' + kin.number);
+			$("h2.moon").text(moonInfo);
+			$("h1.kin").text(kinInfo);
+			$(".code-spell").html(codeSpell);
+			$(".glyph").html(kinImg);
+
+
+			var today = month + '/' +
+						date.getDate() + '/' +
+						date.getFullYear();
+
+			console.log(String(today) + " " + String(dateStr));
+			matchDay = (today == dateStr) ? $("#todayButton").hide() : $("#todayButton").show();
+
+				
+
+		}
+
+		$("#datePicker").submit(function(){
+			$(".error").hide();
+
+			var newDate = $("#newDate").val();
+			var dateArray = newDate.split('/');			
+
+			dateStr = 	dateArray[0] + '/' +
+						dateArray[1] + '/' +
+						dateArray[2];
+						
+
+			if(isDate(dateStr) == false) {
+				$(".error").fadeIn();
+			} else {
+				jsonURL =  siteURL + 'm=' + dateArray[0] + '&d=' + dateArray[1] + '&y=' + dateArray[2];
+				getKinObj(jsonURL, dateStr);
+			}
+			
+			return false;					
+			
+		});
+		
+		
+	});	
+	</script>
+</head>
+<body>
+
+<div id="kinWidget">	
+	<form id="todayButton" action="" method="post">
+		<input type="hidden" name="date" value="">
+		<input type="submit" id="today" value="Go Back to Today">		
+	</form>
+	<p class="error">'mm/dd/yyyy' date format needed</p>
+	<form id="datePicker" action="#" method="post">
+		<input type="text" id="newDate" name="date" value="" placeholder="mm/dd/yyyy">
+		<input type="submit" value="Look Up">		
+	</form>
+	
+	
+	<p class="glyph"></p>
+	<h3 class="kin-number"></h3>
+	<h2 class="moon"></h2>
+	<h1 class="kin"></h1>
+	<div class="code-spell">		
+	</div>
+</div>
+
+
+</body>
+</html>

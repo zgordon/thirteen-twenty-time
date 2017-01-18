@@ -1,0 +1,44 @@
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'assets/includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'assets/includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include(assets/includes/functions.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 00:59:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'assets/includes/functions.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widget/index.php on line 1
+[13-Sep-2011 01:00:51] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 85
+[13-Sep-2011 01:00:51] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 89
+[13-Sep-2011 01:00:51] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 85
+[13-Sep-2011 01:00:51] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 89
+[13-Sep-2011 01:00:52] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 85
+[13-Sep-2011 01:00:52] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 89
+[13-Sep-2011 01:00:52] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 85
+[13-Sep-2011 01:00:52] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home/time1320/public_html/widget/index.php on line 89
+[19-Sep-2011 11:06:27] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/time1320/public_html/widgets/441.php on line 9
+[19-Sep-2011 11:07:33] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/time1320/public_html/widgets/441.php on line 9
+[19-Sep-2011 11:09:52] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/time1320/public_html/widgets/441.php on line 9
+[19-Sep-2011 11:09:53] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting T_FUNCTION in /home/time1320/public_html/widgets/441.php on line 9
+[19-Sep-2011 11:10:28] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/time1320/public_html/widgets/441.php on line 9
+[19-Sep-2011 11:20:09] PHP Fatal error:  Cannot use [] for reading in /home/time1320/public_html/widgets/441.php on line 5
+[19-Sep-2011 11:20:10] PHP Fatal error:  Cannot use [] for reading in /home/time1320/public_html/widgets/441.php on line 5
+[19-Sep-2011 11:20:20] PHP Parse error:  syntax error, unexpected T_ARRAY, expecting T_STRING or T_VARIABLE or '$' in /home/time1320/public_html/widgets/441.php on line 5
+[19-Sep-2011 11:37:13] PHP Parse error:  syntax error, unexpected '>' in /home/time1320/public_html/widgets/441.php on line 25
+[19-Sep-2011 11:37:14] PHP Parse error:  syntax error, unexpected '>' in /home/time1320/public_html/widgets/441.php on line 25
+[19-Sep-2011 13:17:17] PHP Parse error:  syntax error, unexpected '{' in /home/time1320/public_html/widgets/441.php on line 36
+[19-Sep-2011 13:17:18] PHP Parse error:  syntax error, unexpected '{' in /home/time1320/public_html/widgets/441.php on line 36
+[19-Sep-2011 20:45:12] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:12] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:12] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'time-matrix/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:13] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:13] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:13] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'time-matrix/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:15] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:15] PHP Warning:  include(time-matrix/php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[19-Sep-2011 20:45:15] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'time-matrix/php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/time1320/public_html/widgets/time-matrix.php on line 1
+[26-Sep-2011 10:48:11] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 109
+[26-Sep-2011 10:48:55] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 109
+[26-Sep-2011 10:49:49] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 93
+[26-Sep-2011 10:50:41] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 90
+[26-Sep-2011 10:51:33] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 101
+[26-Sep-2011 10:51:59] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/time1320/public_html/assets/includes/functions.php on line 83

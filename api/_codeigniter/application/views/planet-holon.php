@@ -1,0 +1,1 @@
+<img src="http://1320time.net/assets/images/planet-holon-<?= $kin->number % 20;?>.png" alt="<?= $kin->name;?>" title="<?= $kin->name;?>">

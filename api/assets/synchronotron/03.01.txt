@@ -1,0 +1,40 @@
+Today
+	Date 3.1
+	Kin 115
+	Greg 2012.09.20
+
+Time Matrix
+	V1
+	H3
+	Time: 7
+	Space: 276
+	Synchronic: 3
+	TFI: 286
+	Base: 44
+
+Space Matrix
+	V19
+	H5
+	Space: 115
+	Time: 64
+	Synchronic: 122
+	TFI: 301
+	Base: 167
+
+Synchronic Matrix
+	V10
+	H16
+	Synchronic: 115
+	Space: 362
+	Time: 285
+	TFI: 762
+	Base: 355
+
+Master
+	1349
+
+Note
+	Sol
+
+
+
